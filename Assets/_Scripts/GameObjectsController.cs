@@ -2,11 +2,14 @@
 
 public class GameObjectsController : MonoBehaviour {
 
-    public GameObject[,] GameObjects = new GameObject[12,12];
+    public GameObject[,] GameObjects;
+
+    public BoardController BoardController;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start ()
+	{
+	    
 	}
 	
 	// Update is called once per frame
